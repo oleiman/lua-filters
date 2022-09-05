@@ -63,7 +63,7 @@ local pdflatex_path = os.getenv("PDFLATEX") or "pdflatex"
 local asymptote_path = os.getenv ("ASYMPTOTE") or "asy"
 
 -- The default format is SVG i.e. vector graphics:
-local filetype = "svg"
+local filetype = "pdf"
 local mimetype = "image/svg+xml"
 
 -- Check for output formats that potentially cannot use SVG
